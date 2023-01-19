@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var phoenix = {
+            nama : "igris" ,
+            warna : "merah" ,
+            jumlah_kaki : 2 ,
+            sayap : {
+                jumlah_sayap : 2 ,
+                ukuran : "2 meter"
+            },
+            sifat : function (){
+                return "agresif" 
+            },
+            tidur : function (){
+                return "dimana aja"
+            }
+           
+        }
+        document.write("dia nama nya " + phoenix.nama + "<br />")
+        document.write("dia warna nya " + phoenix.warna + "<br />")
+        document.write("dia kaki nya ada " + phoenix.jumlah_kaki + "<br />")
+        document.write("dia sayap nya " + phoenix.sayap.jumlah_sayap+ "<br />")
+        document.write("dia ukuran sayap nya " + phoenix.sayap.ukuran + "<br />")
+        document.write("dia sifat nya " + phoenix.sifat() + "<br />")
+        document.write("dia tidur nya " + phoenix.tidur() + "<br />")
+    </script>
+</body>
+</html>
